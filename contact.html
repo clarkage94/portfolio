@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sean's Portfolio</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+		<link rel="shortcut icon" href="./images/scFavicon.png" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+		<script>
+			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			  var msViewportStyle = document.createElement("style");
+			    msViewportStyle.appendChild(
+			      document.createTextNode(
+			        "@-ms-viewport{width:auto!important}"
+			      )
+			    );
+			  document.getElementsByTagName("head")[0].
+			  appendChild(msViewportStyle);
+			}
+		</script>
+	</head>
+	<body>
+		<nav class="navbar navbar-fixed-top navbar-light bg-light">
+		  <a class="navbar-brand">
+		  	<h1 class="container visible-xs">Sean Clark</h1>
+		  </a>
+			<ul class="nav justify-content-end">
+			  	<div id="nav visible-xs">
+					<a href="index.html" class="navlinks"> About</a>	|
+					<a href="portfolio.html" class="navlinks">Portfolio</a>	|
+					<a href="contact.html" class="navlinks">Contact</a>
+				</div>
+			</ul>
+		</nav>
+		</div>
+		<div class="container visible-xs">
+			<div id="main-content">
+				<h2>Contact</h2>
+					<hr>
+				<form method="POST" action="http://formspree.io/clarkage94@gmail.com">
+				<h3>Name</h3>
+					<input type="text" name="name" placeholder="Your Name Here" class="cntct"><br>
+				<h3>Email</h3>
+	 	 			<input type="email" name="email" placeholder="username@example.com" class="cntct"><br>
+		 		<h3>Message</h3>
+	  				<textarea name="message" placeholder="Type anything here" class="cntct"></textarea><br>
+	  				<button type="submit">Send</button>
+				</form>
+			</div>
+		<div class="container visible-xs">	
+			<div id="sidebarContact">
+				<h3>Connect with Me</h3>
+				<hr>
+				<a href="https://github.com/clarkage94" target="_blank">
+					<img src="./images/github-icon.png" alt="GitHub Icon" class="sideLinks">
+				</a>
+				<a href="https://www.linkedin.com/in/sean-clark-280111119/" target="_blank">
+					<img src="./images/linkedin-icon.png" alt="Linkedin Icon" class="sideLinks">
+				</a>
+				<a href="https://stackoverflow.com/users/8766878/clarkage94?tab=profile" target="_blank">
+					<img src="./images/stackoverflow-icon.png" alt="Stackoverflow Icon" class="sideLinks">
+				</a>
+			</div>
+		</div>
+		<div class="footer">© Copyright 2018 Sean Gregory Clark</div>
+	</body>
+</html>

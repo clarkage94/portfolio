@@ -1,0 +1,228 @@
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+img,video{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
+.container{width:88%;margin-left:auto;margin-right:auto;max-width:1400px;*zoom:1;}
+.grid-container:after{content:"";display:table;clear:both;}
+.grid-unit {position: relative;margin-left: 0;width: 100%;float: left;display: inline; margin-bottom: 2em;}
+.grid:after {content: "";display: table;clear: both;}
+*, *:after, *:before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../images/img5.jpeg") center center repeat;
+}
+
+.container {
+	width: 960px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+	background-color: #A3CEE3;
+}
+
+.row {
+	background-color: #ffffff
+}
+
+nav {
+	background-color: #A3CEE3;
+	width: 100%;
+	padding: 15px;
+	margin: 0;
+	border-bottom: 2px solid #666666;
+	position: fixed;
+}
+
+#headerContent {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	display: inline;
+	color: #ffffff;
+
+}
+
+#name {
+	padding: 15px;
+	background-color: #A3CEE3;
+}
+
+#nav {
+	float: right;
+	margin-top: 5px;
+}
+
+.navlinks {
+	margin: 10px;
+	padding: 10px;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#main-content {
+	background-color: #ffffff;
+	width: 650px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	padding: 10px;
+}
+
+h2 {
+	color: #A3CEE3;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+h3 {
+	font-size: 20px;
+	color: #A3CEE3;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 10px;
+}
+
+hr {
+	border: 0;
+  	border-top: 1px solid #777777;
+  	border-bottom: 1px solid #ffffff;
+}
+
+.groupText {
+	margin: 20px;
+	color: #A3CEE3;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.personalText {
+	margin: 20px;
+	color: #A3CEE3;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.bio-pic {
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+
+p {
+	margin: 5px;
+	line-height: 150%;
+	padding: 5px;
+	color: #777777;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#sidebar {
+	float: right;
+	width: 270px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+#sidebarContact {
+	float: right;
+	width: 270px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	padding: 5px;
+}
+.sideLinks {
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+}
+
+.footer {
+	clear: both;
+	background-color: #666666;
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #ffffff;
+	padding: 20px;
+	width: 100%;
+	border-top: 5px solid #A3CEE3;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	background-color: #A3CEE3;
+	color: white;
+	margin-top: 10px;
+	font-size: 16px;
+	border: none;
+}
+
+.cntct {
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.formTitle {
+	color: #777777;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.portImage {
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+}
+
+.project {
+	color: white;
+	background-color: #A3CEE3;
+	font-size: 20px;
+	width: 250px;
+	padding: 20px;
+	margin: 0px 20px 0px 20px;
+	position: relative;
+	bottom: 90px;
+	text-align: center;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+a:hover .project {
+	background: rgba(163, 206, 227, 0.5);
+}
